@@ -17,3 +17,24 @@ int main()
 ```
 <img width="458" alt="image" src="https://user-images.githubusercontent.com/68184886/150718134-f9cdc2fa-ff06-4e55-8b18-49c36a84e73f.png">
 
+**Exercise 1.3**: Write a program to print Hello, World on the standard output.
+```cpp
+#include<iostream>
+
+int main() {
+	std::cout << "Hello, World" << std::endl;
+	return 0;
+}
+```
+
+**Exercise 1.4**: Our program used the addition operator, +, to add two numbers. Write a program that uses the multiplication operator, \*, to print the product instead.
+```cpp
+#include <iostream>
+int main()
+{
+	std::cout << "Enter two numbers:" << std::endl; 
+	int v1 = 0, v2 = 0; std::cin >> v1 >> v2; 
+	std::cout << "The product of " << v1 << " and " << v2 << " is " << v1 * v2 << std::endl; 
+	return 0;
+}
+```
