@@ -196,6 +196,7 @@ int main() {
 ```
 
 **Exercise 1.14**: Compare and contrast the loops that used a for with those using a while. Are there advantages or disadvantages to using either form?
+
 for可以较为清楚地表述起始和终止条件，但是假如有多级判定不如while。
 
 **Exercise 1.15**: Write programs that contain the common errors discussed in the box on page 16. Familiarize yourself with the messages the compiler generates.
