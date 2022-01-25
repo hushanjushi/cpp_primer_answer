@@ -248,3 +248,19 @@ int main()
 	return 0;
 }
 ```
+
+**Exercise 1.17**: What happens in the program presented in this section if the input values are all equal? What if there are no duplicated values?
+
+正常输出
+**Exercise 1.18**: Compile and run the program from this section giving it only equal values as input. Run it again giving it values in which no number is repeated.
+<img width="103" alt="image" src="https://user-images.githubusercontent.com/68184886/150909175-42f663c1-064d-49b4-b482-156aaf0da244.png">
+<img width="115" alt="image" src="https://user-images.githubusercontent.com/68184886/150909218-67993b76-ee65-4abe-979e-221b36cb2f11.png">
+
+**Exercise 1.19**: Revise the program you wrote for the exercises in § 1.4.1 (p.13) that printed a range of numbers so that it handles input in which the first number is smaller than the second.
+已经实现了，参加1.11的代码
+
+**Exercise 1.20**: http://www.informit.com/title/032174113 contains a copy of Sales_item.h in the Chapter 1 code directory. Copy that file to your working directory. Use it to write a program that reads a set of book sales transactions, writing each transaction to the standard output.
+
+
+**Exercise 1.21**: Write a program that reads two Sales_item objects that have the same ISBN and produces their sum.
+**Exercise 1.22**: Write a program that reads several transactions for the same ISBN. Write the sum of all the transactions that were read.
