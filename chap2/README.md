@@ -22,3 +22,32 @@ std::cout << u - i << std::endl;
 **Exercise 2.4**: Write a program to check whether your predictions were correct. If not, study this section until you understand what the problem is.
 
 <img width="68" alt="image" src="https://user-images.githubusercontent.com/68184886/151097593-82365a40-d10a-4322-a0eb-aca9594a8a7e.png">
+
+**Exercise 2.5**: Determine the type of each of the following literals. Explain the differences among the literals in each of the four examples:
+
+(a) 'a', L'a', "a", L"a"
+
+(b) 10, 10u, 10L, 10uL, 012, 0xC
+
+(c) 3.14, 3.14f, 3.14L
+
+(d) 10, 10u, 10., 10e-2
+
+(a)char wchar_t string wstring_t
+
+**Exercise 2.6**: What, if any, are the differences between the following definitions:
+```cpp
+int month = 9, day = 7;
+int month = 09, day = 07;
+```
+**Exercise 2.7**: What values do these literals represent? What type does each have?
+
+(a) "Who goes with F\145rgus?\012"
+
+(b) 3.14e1L
+
+(c) 1024f
+
+(d) 3.14L
+
+**Exercise 2.8**: Using escape sequences, write a program to print 2M followed by a newline. Modify the program to print 2, then a tab, then an M, followed by a newline.
