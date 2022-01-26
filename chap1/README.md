@@ -343,7 +343,7 @@ int main()
 <img width="227" alt="image" src="https://user-images.githubusercontent.com/68184886/150912369-9c01d9bf-c3a9-4bc2-9bf0-c96bbfc7ff05.png">
 
 **Exercise 1.25**: Using the Sales_item.h header from the Web site, compile and execute the bookstore program presented in this section.
-```
+```cpp
 #include <iostream>
 #include "Sales_item.h"
 int main()
