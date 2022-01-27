@@ -169,7 +169,8 @@ if (\*p) // ...
 
 (d) ++cnt; ++sz;
 
-Exercise 2.27: Which of the following initializations are legal? Explain why.
+**Exercise 2.27**: Which of the following initializations are legal? Explain why.
+```cpp
 (a) int i = -1, &r = 0;
 (b) int *const p2 = &i2;
 (c) const int i = -1, &r = 0;
@@ -177,6 +178,7 @@ Exercise 2.27: Which of the following initializations are legal? Explain why.
 (e) const int *p1 = &i2;
 (f) const int &const r2;
 (g) const int i2 = i, &r = i;
+```
 Exercise 2.28: Explain the following definitions. Identify any that are illegal.
 (a) int i, *const cp;
 (b) int *p1, *const p2;
