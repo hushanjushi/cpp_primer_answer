@@ -24,16 +24,13 @@ std::cout << u - i << std::endl;
 <img width="68" alt="image" src="https://user-images.githubusercontent.com/68184886/151097593-82365a40-d10a-4322-a0eb-aca9594a8a7e.png">
 
 **Exercise 2.5**: Determine the type of each of the following literals. Explain the differences among the literals in each of the four examples:
-
+```cpp
 (a) 'a', L'a', "a", L"a"
-
 (b) 10, 10u, 10L, 10uL, 012, 0xC
-
 (c) 3.14, 3.14f, 3.14L
-
 (d) 10, 10u, 10., 10e-2
-
 (a)char wchar_t string wstring_t
+```
 
 **Exercise 2.6**: What, if any, are the differences between the following definitions:
 ```cpp
@@ -41,48 +38,40 @@ int month = 9, day = 7;
 int month = 09, day = 07;
 ```
 **Exercise 2.7**: What values do these literals represent? What type does each have?
-
+```cpp
 (a) "Who goes with F\145rgus?\012"
-
 (b) 3.14e1L
-
 (c) 1024f
-
 (d) 3.14L
+```
 
 **Exercise 2.8**: Using escape sequences, write a program to print 2M followed by a newline. Modify the program to print 2, then a tab, then an M, followed by a newline.
 
 **Exercise 2.9**: Explain the following definitions. For those that are illegal, explain what’s wrong and how to correct it.
-
+```cpp
 (a) std::cin >> int input_value;
-
 (b) int i = { 3.14 };
-
 (c) double salary = wage = 9999.99;
-
 (d) int i = 3.14;
+```
 
 **Exercise 2.10**: What are the initial values, if any, of each of the following variables?
 
 **Exercise 2.11**: Explain whether each of the following is a declaration or a definition:
-
+```cpp
 (a) extern int ix = 1024;
-
 (b) int iy;
-
 (c) extern int iz;
+```
 
 **Exercise 2.12**: Which, if any, of the following names are invalid?
-
+```cpp
 (a) int double = 3.14;
-
 (b) int _;
-
 (c) int catch-22;
-
 (d) int 1_or_2 = 1;
-
 (e) double Double = 3.14;
+```
 
 **Exercise 2.13**: What is the value of j in the following program?
 ```cpp
@@ -96,26 +85,21 @@ int main()
 **Exercise 2.14**: Is the following program legal? If so, what values are printed?
 
 **Exercise 2.15**: Which of the following definitions, if any, are invalid? Why?
-
+```cpp
 (a) int ival = 1.01;
-
 (b) int &rval1 = 1.01;
-
 (c) int &rval2 = ival;
-
 (d) int &rval3;
+```
 
 **Exercise 2.16**: Which, if any, of the following assignments are invalid? If they are valid, explain what they do.
 ```cpp
 int i = 0, &r1 = i; double d = 0, &r2 = d;
-```
 (a) r2 = 3.14159;
-
 (b) r2 = r1;
-
 (c) i = r2;
-
 (d) r1 = d;
+```
 
 **Exercise 2.17**: What does the following code print?
 ```cpp
@@ -138,10 +122,10 @@ int *p1 = &i;
 **Exercise 2.21**: Explain each of the following definitions. Indicate whether any are illegal and, if so, why.
 ```cpp
 int i = 0;
-```
 (a) double* dp = &i;
 (b) int \*ip = i;
 (c) int \*p = &i;
+```
 
 **Exercise 2.22**: Assuming p is a pointer to int, explain the following code:
 if (p) // ...
@@ -152,22 +136,19 @@ if (\*p) // ...
 **Exercise 2.24**: Why is the initialization of p legal but that of lp illegal?
 
 **Exercise 2.25**: Determine the types and values of each of the following variables.
-
+```cpp
 (a) int* ip, &r = ip;
-
 (b) int i, \*ip = 0;
-
 (c) int* ip, ip2;
+```
 
 **Exercise 2.26**: Which of the following are legal? For those that are illegal, explain why.
-
+```cpp
 (a) const int buf;
-
 (b) int cnt = 0;
-
 (c) const int sz = cnt;
-
 (d) ++cnt; ++sz;
+```
 
 **Exercise 2.27**: Which of the following initializations are legal? Explain why.
 ```cpp
@@ -196,6 +177,7 @@ if (\*p) // ...
 (e) p2 = p1;
 (f) ic = *p3;
 ```
+
 **Exercise 2.30**: For each of the following declarations indicate whether the object being declared has top-level or low-level const.
 ```cpp
 const int v2 = 0; int v1 = v2;
