@@ -31,6 +31,8 @@ std::cout << u - i << std::endl;
 (d) 10, 10u, 10., 10e-2
 (a)char wchar_t string wstring_t
 ```
+(a) char, wchar_t, string, wstring_t  
+(b) int, unsigned int, long, unsigned long, int()
 
 **Exercise 2.6**: What, if any, are the differences between the following definitions:
 ```cpp
